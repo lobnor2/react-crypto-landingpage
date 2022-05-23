@@ -1,0 +1,86 @@
+.hero .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 4rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid red;
+}
+
+.hero .left {
+    padding: 1rem;
+    /* border: 1px solid black; */
+}
+input {
+    border: none;
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    width: 50%;
+}
+ .btnn {
+    border: none;
+    background-color: #fff;
+    padding: .8rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: var(--primary);
+    border-radius: 5px ;
+    cursor: pointer;
+    /* border:1px solid black;  */
+}
+
+
+.hero .right {
+    padding: 1rem;
+    /* border: 1px solid black; */
+}
+
+.hero h1 {
+    padding: 1rem 0;
+}
+
+.hero .input-container {
+    padding: 1rem 0;
+}
+
+.hero .img-container {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.hero img {
+    max-width: 80%;
+    margin:auto;
+    /* border: 1px solid gold; */
+}
+
+
+@media screen and (max-width:600px) {
+    .hero .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero h1 {
+        text-align: center;
+    }
+    .hero .input-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .hero input , .hero button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
