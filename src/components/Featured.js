@@ -17,7 +17,8 @@ const Featured = () => {
             {/* right side  */}
             <div className="right">
                 <div className="top">
-                    
+                    hello
+            
                 </div>
 
             </div>
