@@ -1,0 +1,27 @@
+.footer {
+    /* background-color: var(--background); */
+    padding: 5rem 0;
+    background-color: rgba(255, 0, 0, 0.14);
+    clip-path: polygon(0 0, 100%, 100% 100%, 0% 100%);
+}
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* justify-content: space-evenly; */
+    padding: 1rem;
+}
+.footer .col {
+    display: flex;
+    flex-direction: column;
+}
+.footer .bar {
+    width: 30px;
+    border-bottom: 4px solid var(--primary);
+    margin: 1rem 0;
+}
+.footer a {
+    font-size: 1rem ;
+}
+/* .col-1 {
+    font-size: ;
+} */
