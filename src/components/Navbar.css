@@ -44,7 +44,7 @@
         position: absolute;
         flex-direction: column;
         justify-content: flex-start;
-        top: 90px;
+        top: 10vh;
         right:-100%;
         width: 50%;
         border-left: 1px solid #eee;

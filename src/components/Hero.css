@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .hero .left {
@@ -29,7 +29,10 @@ input {
     cursor: pointer;
     /* border:1px solid black;  */
 }
+.btnn:hover {
+    box-shadow: rgb(0 0 0 /10%) 0px 8px 24px;
 
+}
 
 .hero .right {
     padding: 1rem;
@@ -74,9 +77,10 @@ input {
     }
     .hero input , .hero button {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 }
+
 
 
 
