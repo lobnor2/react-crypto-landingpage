@@ -46,6 +46,7 @@ const Footer = () => {
                 
             </div>
         </div>
+        {/* <p>DeFi &copy;2022 </p> */}
         
     </div>
   )
